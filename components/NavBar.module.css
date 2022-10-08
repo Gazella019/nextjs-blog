@@ -1,0 +1,36 @@
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(217, 205, 205);
+}
+
+.navbar_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar_logo img {
+    width: 150px;
+}
+
+.navbar_links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.navbar_links li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navbar_links li:hover {
+    color: cadetblue;
+}
