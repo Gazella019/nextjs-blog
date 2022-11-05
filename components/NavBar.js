@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import styles from './NavBar.module.css'
 
-
 const NavBar = () => {
   return (
     <div className={styles.navbar}>
